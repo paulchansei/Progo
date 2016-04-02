@@ -1,0 +1,29 @@
+{
+  "siteName": {
+    "value": "Progo"
+  },
+  "hostingPlanName": {
+    "value": "OfficialApp"
+  },
+  "siteLocation": {
+    "value": "Southeast Asia"
+  },
+  "sku": {
+    "value": "Free"
+  },
+  "workerSize": {
+    "value": "0"
+  },
+  "siteMode": {
+    "value": "Limited"
+  },
+  "computeMode": {
+    "value": "0"
+  },
+  "subscriptionId": {
+    "value": "eb0e7edb-e09a-4206-a8d2-46fc74f39a0b"
+  },
+  "resourceGroup": {
+    "value": "SoutheastAsia"
+  }
+}

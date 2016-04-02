@@ -1,0 +1,39 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 14
+VisualStudioVersion = 14.0.25123.0
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "PublishScripts", "PublishScripts", "{94D54FB2-59A2-4808-9799-D5BC45461945}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Scripts", "Scripts", "{BC46A88F-07E1-4B42-BCD1-4E56E9854F2B}"
+	ProjectSection(SolutionItems) = preProject
+		PublishScripts\Scripts\Deploy-AzureResourceGroup.ps1 = PublishScripts\Scripts\Deploy-AzureResourceGroup.ps1
+	EndProjectSection
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Templates", "Templates", "{8168BA29-5725-4018-B427-447573FFD7ED}"
+	ProjectSection(SolutionItems) = preProject
+		PublishScripts\Templates\Progo.json = PublishScripts\Templates\Progo.json
+		PublishScripts\Templates\Progo.param.dev.json = PublishScripts\Templates\Progo.param.dev.json
+	EndProjectSection
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Progo", "Progo\Progo\Progo.csproj", "{E1D69DF3-F23F-41F1-9FEB-D9D80BBCE839}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{E1D69DF3-F23F-41F1-9FEB-D9D80BBCE839}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{E1D69DF3-F23F-41F1-9FEB-D9D80BBCE839}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{E1D69DF3-F23F-41F1-9FEB-D9D80BBCE839}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{E1D69DF3-F23F-41F1-9FEB-D9D80BBCE839}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{BC46A88F-07E1-4B42-BCD1-4E56E9854F2B} = {94D54FB2-59A2-4808-9799-D5BC45461945}
+		{8168BA29-5725-4018-B427-447573FFD7ED} = {94D54FB2-59A2-4808-9799-D5BC45461945}
+	EndGlobalSection
+EndGlobal
